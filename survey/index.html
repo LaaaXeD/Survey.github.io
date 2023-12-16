@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome to Survey Corps</title>
+    <link href="styles.css" rel="stylesheet">
+</head>
+<body>
+    
+  
+    <!-- Title -->
+<h1 id="title">Welcome to Survey Corps!</h1>
+
+<hr />
+
+<img src="https://www.formbot.com/images/create-a-survey.jpg" alt="survey">
+    <p id="description">We are focused on providing the best survey experience
+        on the web.</p>
+
+        <!-- Form -->
+<form id="survey-form" method="post">
+    <h1>Sign Up Here!</h1>
+<label id="name-label">Name <input type="text" id="name" required placeholder="Johnny Appleseed..."></label>
+<label id="email-label">Email <input type="email" id="email" required placeholder="JohnDoe1234@yahoo.com"></label>
+<label id="number-label">Age <input type="number" id="number" min="13" max="100" required placeholder="13"></label>
+<label> How did you hear about Survey Corp?</label>
+    <select id="dropdown" placeholder="Social Media">
+        <option>Social Media</option>
+        <option>Commercial</option>
+        <option>A friend</option>
+        <option>Radio Ad</option>
+    </select>
+<!-- Button -->
+<div class="button">
+<img src="https://www.iconpacks.net/icons/2/free-click-icon-2384-thumb.png" alt="click">
+    <div>
+    <p>Would you recommend this website to a friend?</p>
+    <label for="button">Yes<input type="radio" id="button" name="button" value="Yes" required></label>
+    <label for="button">No<input type="radio" id="button" name="button" value="No" required></label>
+    <label for="submit"><input type="submit" id="submit" name="submit" value="Submit" required></label>
+</form>
+</div>
+    <!-- Text Area -->
+<label for="t-area"> What are you doing  currently ?
+   <textarea id="t-area" name="t-area" required rows="10" cols="30" placeholder="What I learned in boating school is ...." ></textarea>
+</label>
+
+<!-- Check Box  -->
+<label for="check"> What do you hope to gain in life? <br />
+    <label><input type="checkbox" id="check" name="check" value="Knowledge" required>Knowledge <br />
+    <label><input type="checkbox" id="check" name="check" value="Power" required>Power <br />
+        <input type="checkbox" id="check" name="check" value="Money" required>Money <br />
+    <input type="checkbox" id="check" name="check" value="Money" required>Money <br />
+    <input type="checkbox" id="check" name="check" value="Fame" required>Fame <br />
+    <input type="checkbox" id="check" name="check" value="Flash" required>Flash <br />
+</label>
+</body>
+</html>
