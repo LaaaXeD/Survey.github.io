@@ -1,95 +1,116 @@
-body {
-    background-color: lightblue;
-    margin: 0.5em;
-    padding: 0;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    font-size: 18px;
-    color: darkblue;
-    text-align: center; 
-
+a {
+    text-decoration: none;
 }
+
+li {
+    list-style: none;
+}
+
+
+body {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 1em;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+h2 {
+    margin: 1em 0;
+}
+
 
 img {
-    width: 50vh;
-}
-
-div img {
-    width: 50%;
-}
-
-label {
-    margin: 10px;
-    display: inline-block;
-    width: 100%;
+    border-radius: 1em;
 }
 
 
-form {
-    background-color: darkblue;
-    display:inline-block;
-    width: 30%;
-    color: white;
-    margin: 5px;
-    padding: 5px;
-    border: 2px solid white;
-    min-width: 300px;
-    max-width: 700px;
-}
+/* Hero */
 
-input {
-    margin: 10px;
-    /* min-width: 200px; */
-    /* max-width: 300px; */
-    display: inline-block;
+.hero {
+    text-align: center;
     
 }
 
-label #button {
-    width: auto;
-    text-align: left;
-    margin: 5px;
-    display: inline-block;
-    text-align: left;
-}
-
-hr {
-    border: 1px solid darkblue;
-    min-width: 300px;
-    max-width: 500px;
-    margin-top: 20px;
-    margin-bottom: 20px;
-
-}
-
-/* Submit Button */
-input[type="submit"] {
-    background-color: blueviolet;
-    color: white;
-    margin: 4em;
-}
-
-/* Text Area */
-textarea {
-margin: 2em;
-text-align: center;
-border: 2px solid black;
-max-width: 300;
-}
-
-/* /* input[type="checkbox"  */
-    
-#check {
-    margin: 5%;
-    display: inline-block;
-}
-
-#name-label, #email-label, #number-label {
- 
-}
-
-/* Forms */
-label {
+.hero input {
     display: block;
+    margin: 2em auto;
+    border: 1px solid black;
+    border-radius: 1rem;
+    
+
 }
 
+.hero img {
+    max-width: 400px;
+    
+}
+
+
+.first-anchor a{
+    background-color:coral;
+    padding: 10px;
+    border-radius: 1em;
+}
+
+/* Nav Bar */
+nav {
+    background-color: black;
+    padding: .1rem;
+    margin: 0;
+}
+
+nav ul {
+    display: flex;
+    justify-content: flex-end;
+    color: white;
+}
+
+nav li{
+    padding: 0 px;
+}
+
+nav li:nth-child(1){
+    margin-right: auto;
+    /* font-size: 1.5em; */
+}
+
+
+
+
+/* Quote */
+
+.quote {
+    background-color: black;
+    color: white;
+    padding: .6em;
+    border-radius: 1em;
+}
+
+.quote p {
+    font-weight: 900;
+}
+.quote img {
+    max-width: 18.75em;
+}
+
+/* Testimony */
+.testimony img {
+    max-width: 18.75em;
+}
+
+@media (max-width: 450px) {
+    
+    body {
+        font-size: 1.1em;
+        text-align: center;
+    }
+    
+    .hero img {
+        justify-content: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        max-width: 375px;
+        
+    } 
+}
 
