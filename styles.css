@@ -1,5 +1,6 @@
 a {
     text-decoration: none;
+    margin-top: 5rem;
 }
 
 li {
@@ -28,6 +29,7 @@ h2 {
 
 img {
     border-radius: 1em;
+    max-width: 18.75em;
 }
 
 
@@ -97,9 +99,7 @@ nav li:nth-child(1){
 .quote p {
     font-weight: 900;
 }
-.quote img {
-    max-width: 18.75em;
-}
+
 
 /* Testimony */
 
@@ -127,15 +127,19 @@ nav li:nth-child(1){
 
 
 /* CTA */
-.cta {
-    a {
+.cta a {
     background-color:coral;
     padding: 10px;
     border-radius: 1em;
-    }
+    
 }
 
+/* FAQ */
+.faq img {
+    max-width: 19em;
+}
 
+/* Footer */
 
 
 @media (max-width: 450px) {
@@ -155,5 +159,7 @@ nav li:nth-child(1){
     .testimony p {
         max-width: 300px;
     }
+
+
 }
 
