@@ -110,18 +110,18 @@ nav li:nth-child(1){
 }
 
 
-.testimony img {
+#testimony img {
     max-width: 18.75em;
     min-width: 2em;
     margin: 1em 0;
     
 }
 
-.testimony  {
+#testimony  {
     display: inline-block;
 }
 
-.testimony p {
+#testimony p {
     margin: 0 auto;
 }
 
@@ -156,7 +156,7 @@ nav li:nth-child(1){
         max-width: 375px;
     } 
 
-    .testimony p {
+    #testimony p {
         max-width: 300px;
     }
 
