@@ -30,6 +30,7 @@ h2 {
 img {
     border-radius: 1em;
     max-width: 18.75em;
+    box-shadow: 18px 10px 39px 0px rgba(0,0,0,0.58);
 }
 
 
@@ -82,6 +83,7 @@ nav li{
 nav li:nth-child(1){
     margin-right: auto;
     /* font-size: 1.5em; */
+    /* font-weight: 900; */
 }
 
 
@@ -155,6 +157,22 @@ nav li:nth-child(1){
 }
 
 /* Footer */
+
+footer {
+    margin-top: 3em;
+    
+}
+
+
+span {
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    background-color: rgb(145, 145, 145);
+    border-radius: 1em;
+    box-shadow: 18px 10px 39px 0px rgba(0,0,0,0.58);
+}
+
 
 
 @media (max-width: 450px) {
