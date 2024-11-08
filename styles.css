@@ -13,7 +13,6 @@ body {
     font-size: 1em;
     box-sizing: border-box;
     text-align: center;
-    /* margin: 0 auto; */
 }
 
 .main {
@@ -64,30 +63,36 @@ img {
 
 /* Nav Bar */
 nav {
-    background-color: black;
     padding: .1rem;
     margin: 0;
     min-width: 100%;
-}
-
-nav ul {
-    display: flex;
-    justify-content: flex-end;
+    border-radius: 1em;
+    box-shadow: 5px 5px 14px 0px #000000;
+    background-color: #000000;
     color: white;
 }
 
-nav li{
-    padding: 0 px;
+.nav-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-nav li:nth-child(1){
+
+nav li:first-child{
+    font-size: 1.5em;
+    font-weight: 600;
+}
+
+nav li:nth-child(2){
+    margin-left: auto;
     margin-right: auto;
-    /* font-size: 1.5em; */
-    /* font-weight: 900; */
+   
 }
 
-
-
+nav li:nth-child(3){
+    /* margin-right: auto; */
+}
 /* Available */
 
 
